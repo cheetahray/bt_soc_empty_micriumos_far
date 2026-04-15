@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "bt_soc_empty_micriumos_far_silabs_debug:default_config",
+            "cwd": "${workspaceFolder}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "serverpath": "/Users/rayshih/.silabs/slt/installs/archive/exx32-v6.0.32/JLinkGDBServerCLExe",
+            "servertype": "jlink",
+            "gdbPath": "/Users/rayshih/.silabs/slt/installs/archive/exx32-v6.0.32/arm-none-eabi-gdb",
+            "device": "EFR32MG27CxxxF768",
+            "svdFile": "/var/folders/9p/82x3518120l4qndhfpqs2rl40000gn/T/silabs_extension/silabs_extension/svd/EFR32BG27C140F768IM40.svd",
+            "runToEntryPoint": "main",
+            "rtos": "FreeRTOS",
+            "showDevDebugOutput": "raw",
+            "executable": "/Users/rayshih/SimplicityStudio/v6_workspace/bt_soc_empty_micriumos_far/cmake_gcc/build/base/bt_soc_empty_micriumos_far.out",
+            "preLaunchTask": "bt_soc_empty_micriumos_far_silabs_debug:default_config_combined",
+            "serialNumber": "602713707"
+        }
+    ]
+}
